@@ -1,15 +1,14 @@
 {
-  "name": "task-4.1p",
+  "name": "docker-node-app",
   "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
+  "description": "A simple Node.js app for Docker demo",
+  "main": "server.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node server.js"
   },
-  "keywords": [],
-  "author": "",
+  "author": "Ankit",
   "license": "ISC",
   "dependencies": {
-    "express": "^4.21.2"
+    "express": "^4.18.2"
   }
 }
